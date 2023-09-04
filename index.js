@@ -7,7 +7,6 @@ const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch
 const fileType = import("file-type")
 const fs = require ("fs")
 const cp = require ("child_process")
-cp.execSync("mkdir .tmp")
 const FormData = require("form-data")
 const vm = require ("vm")
 const P = require ("pino")
