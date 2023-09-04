@@ -1,8 +1,9 @@
 { pkgs }: {
   deps = [
     pkgs.wget
-    pkgs.nodejs-20_x
+    pkgs.nodejs-18_x
     pkgs.speedtest_cli
+    pkgs.nodejs-18_x
     pkgs.zip
     pkgs.unzip
     pkgs.neofetch
