@@ -1,7 +1,7 @@
 { pkgs }: {
   deps = [
     pkgs.wget
-    pkgs.nodejs-19_x
+    pkgs.nodejs-20_x
     pkgs.speedtest_cli
     pkgs.zip
     pkgs.unzip
