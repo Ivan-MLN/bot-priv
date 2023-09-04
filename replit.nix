@@ -1,20 +1,22 @@
 { pkgs }: {
-  deps = [
-    pkgs.wget
-    pkgs.nodejs-18_x
-    pkgs.speedtest_cli
-    pkgs.nodejs-18_x
-    pkgs.zip
-    pkgs.unzip
-    pkgs.neofetch
-    pkgs.tesseract
-    pkgs.pm2
-    pkgs.wget
-    pkgs.libwebp
-    pkgs.speedtest-cli
-    pkgs.ffmpeg-full
-    pkgs.imagemagick
-    pkgs.sox
-    pkgs.curl
-  ];
+    deps = [              
+        pkgs.nodejs-16_x
+        pkgs.tesseract
+        pkgs.python
+	    	pkgs.nodePackages.typescript
+        pkgs.libuuid
+        pkgs.ffmpeg
+        pkgs.yarn
+        pkgs.imagemagick  
+        pkgs.wget
+        pkgs.sox
+        pkgs.curl
+        pkgs.zip
+			  pkgs.pm2
+        pkgs.git
+        pkgs.nodePackages.pm2
+    ];
+  env ={
+    LD_LIBRARY_PATH = pkgs.lib.makeLibraryPath [pkgs.libuuid];
+  };
 }
