@@ -15,6 +15,7 @@
     "file-type": "^18.2.1",
     "fluent-ffmpeg": "^2.1.2",
     "fs": "^0.0.1-security",
+    "form-data": "*",
     "moment-timezone": "^0.5.40",
     "node-fetch": "^3.3.0",
     "node-webpmux": "^3.1.5",
