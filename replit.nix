@@ -9,7 +9,7 @@
     pkgs.yarn
     pkgs.imagemagick  
     pkgs.wget
-    pkgs.sox
+    pkgs.sox-unstable
     pkgs.curl
     pkgs.zip
     pkgs.pm2
